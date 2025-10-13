@@ -1,0 +1,15 @@
+Sub Macro2SonicPi
+ 
+Dim Sheet As Object
+Dim ReplaceDescriptor As Object
+Dim I As Integer
+Dim oThis
+ 
+Sheet = ThisComponent.CurrentController.ActiveSheet
+ReplaceDescriptor = Sheet.createReplaceDescriptor()
+ReplaceDescriptor.SearchString = "o"
+oThis = "=CONCATENATE(""play "",COLUMN())"
+ReplaceDescriptor.ReplaceString = oThis
+Sheet.ReplaceAll(ReplaceDescriptor)
+ 
+End Sub
