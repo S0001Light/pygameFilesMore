@@ -1,0 +1,1 @@
+On pygameCamera file, must have have a camera to get to work, the file reads out what the line should be in the file, if it reads None in the print out means the Camera doesn't work, still working out the bugs.
