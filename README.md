@@ -1,3 +1,10 @@
+
+with Writers Jumbler 30 and 50 art can be turned into an windows executable with pyinstaller
+you must have pyinstaller installed with pip install pyinstaller then
+pyinstaller --onefile --noconsole --icon=icon.ico WritersJumbler_30_Art_Ani.py then 
+pyinstaller --onefile --noconsole --icon=icon.ico WritersJumbler_50_Art_Ani.py
+
+
 MultiWindowPygameArt runs every 5 seconds, each window, makes a bmp, python file, and a html page to view the art that was made when it was running.
 
 These files can produce and make a lot of files...
