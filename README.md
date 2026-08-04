@@ -1,4 +1,4 @@
-
+WritersJumbler_50_Art_Ani.py and WritersJumbler_30_Art_Ani.py need pygame and Pillow installed with pip
 with Writers Jumbler 30 and 50 art can be turned into an windows executable with pyinstaller
 you must have pyinstaller installed with pip install pyinstaller then
 pyinstaller --onefile --noconsole --icon=icon.ico WritersJumbler_30_Art_Ani.py then 
