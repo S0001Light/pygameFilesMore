@@ -85,7 +85,7 @@ def save_animation_gif2(filename="WJ_E_Animation.gif", frames=30, rows=30, cols=
         duration=80,   # ms per frame
         loop=0
     )
-def save_animation_gif3(filename="WJ_SE_Animation.gif", frames=61, rows=30, cols=30):
+def save_animation_gif3(filename="WJ_SE_Animation.gif", frames=60, rows=30, cols=30):
     gif_frames = []
 
     for i in range(frames):
@@ -110,7 +110,7 @@ def save_animation_gif3(filename="WJ_SE_Animation.gif", frames=61, rows=30, cols
         duration=80,   # ms per frame
         loop=0
     )
-def save_animation_gif4(filename="WJ_NE_Animation.gif", frames=61, rows=30, cols=30):
+def save_animation_gif4(filename="WJ_NE_Animation.gif", frames=60, rows=30, cols=30):
     gif_frames = []
 
     for i in range(frames):
