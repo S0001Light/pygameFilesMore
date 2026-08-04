@@ -85,7 +85,7 @@ def save_animation_gif2(filename="WJ_E_Animation.gif", frames=50, rows=50, cols=
         duration=80,   # ms per frame
         loop=0
     )
-def save_animation_gif3(filename="WJ_SE_Animation.gif", frames=101, rows=50, cols=50):
+def save_animation_gif3(filename="WJ_SE_Animation.gif", frames=100, rows=50, cols=50):
     gif_frames = []
 
     for i in range(frames):
@@ -110,7 +110,7 @@ def save_animation_gif3(filename="WJ_SE_Animation.gif", frames=101, rows=50, col
         duration=80,   # ms per frame
         loop=0
     )
-def save_animation_gif4(filename="WJ_S_Animation.gif", frames=101, rows=50, cols=50):
+def save_animation_gif4(filename="WJ_S_Animation.gif", frames=100, rows=50, cols=50):
     gif_frames = []
 
     for i in range(frames):
@@ -590,9 +590,9 @@ while True:
             if event.key == K_m:
                 save_animation_gif2(zS+"_marquee_e.gif", frames=50, rows=50, cols=50)
             if event.key == K_l:
-                save_animation_gif3(zS+"_marquee_se.gif", frames=101, rows=50, cols=50) 
+                save_animation_gif3(zS+"_marquee_se.gif", frames=100, rows=50, cols=50) 
             if event.key == K_k:
-                save_animation_gif4(zS+"_marquee_ne.gif", frames=101, rows=50, cols=50)      
+                save_animation_gif4(zS+"_marquee_ne.gif", frames=100, rows=50, cols=50)      
         screen.fill(bg_color)
         for sq in squares:
             pygame.draw.rect(screen, sq["color"], sq["rect"])
