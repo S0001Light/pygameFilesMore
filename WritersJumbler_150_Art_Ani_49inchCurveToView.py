@@ -9,7 +9,7 @@ import random
 last_click_time = 0
 pygame.init()
 screen = pygame.display.set_mode((3500, 1000), 0, 32)
-pygame.display.set_caption("Writers Jumbler 50 Art - start with keyboard letter q, then either w, e, r, t, y, u, i, o,  p=erase, b=blur, s=saves, animation=l,k,n,m")
+pygame.display.set_caption("Writers Jumbler 150 Art - start with keyboard letter q, then either w, e, r, t, y, u, i, o,  p=erase, b=blur, s=saves, animation=l,k,n,m")
 def marquee_south(rows, cols):
     # Move each column downward by 1
     for col in range(cols):
@@ -502,7 +502,7 @@ def build_grid(cols=150, rows=50, start_x=405, start_y=20, cell_size=15, gap=5):
 build_grid(cols=150, rows=50)
 
 def saveAsBMP():
-    word = "WritersJumbler_50_Art_"
+    word = "WritersJumbler_150_Art_"
     dthm = datetime.datetime.now()
     m = str(dthm.strftime("%m"))
     dy = str(dthm.strftime("%d"))
