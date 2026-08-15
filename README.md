@@ -1,3 +1,11 @@
+WritersJumbler_30_Art_Ani.py
+WritersJumbler_50_Art_Ani.py
+WritersJumbler_150_Art_Ani.py
+WritersJumbler_200_Art_Ani.py
+
+These Four Files Microsoft CoPilot Helped me build...Ani
+
+
 WritersJumbler_50_Art_Ani.py and WritersJumbler_30_Art_Ani.py need pygame and Pillow installed with pip
 with Writers Jumbler 30 and 50 art can be turned into an windows executable with pyinstaller
 you must have pyinstaller installed with pip install pyinstaller then
