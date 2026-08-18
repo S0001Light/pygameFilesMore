@@ -589,7 +589,7 @@ while True:
             if event.key == K_o:
                 autoPatternFill()
             if event.key == K_s:
-                saveAsBMP()
+                saveAsPNG()
             if event.key == K_p:
                 erase_all()
             if event.key == K_b:
