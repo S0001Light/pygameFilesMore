@@ -1,3 +1,5 @@
+aFolders.bat works well with copying Pygame-Art-ALL6TypesPythonBMP-DCT-Dots-HTML.py file to specific number folders, to a directory, that for right now use only once, this file, each folder.
+
 wjLauncher3, wjLauncher4, wjLauncher6 need fixed with co-pilot somehow, so does it not open multiple applications, haven't figured it out yet.
 
 the others work fine, edit to your likeing... all wjLauncher's where made with Microsoft Co Pilot.
