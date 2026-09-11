@@ -1,9 +1,25 @@
+wjLauncher3, wjLauncher4, wjLauncher6 need fixed with co-pilot somehow, so does it not open multiple applications, haven't figured it out yet.
+
+the others work fine, edit to your likeing... all wjLauncher's where made with Microsoft Co Pilot.
+
 WritersJumbler_30_Art_Ani.py
 WritersJumbler_50_Art_Ani.py
+WritersJumbler_30_Art_Ani2.py
+WritersJumbler_50_Art_Ani2.py
+WritersJumbler_30_Art_Ani3.py
+WritersJumbler_50_Art_Ani3.py
+WritersJumbler_30_Art_Ani4.py
+WritersJumbler_50_Art_Ani4.py
+WritersJumbler_30_Art_Ani5.py
+WritersJumbler_50_Art_Ani5.py
+WritersJumbler_50_Art_Ani6.py
+WritersJumbler_50_Art_Ani6.py
 WritersJumbler_150_Art_Ani.py
+WritersJumbler_150_Art_Ani2.py
+WritersJumbler_150_Art_Ani3.py
 WritersJumbler_200_Art_Ani.py
 
-These Four Files Microsoft CoPilot Helped me build...Ani
+These Files Microsoft CoPilot Helped me build...Ani
 
 
 WritersJumbler_50_Art_Ani.py and WritersJumbler_30_Art_Ani.py need pygame and Pillow installed with pip
